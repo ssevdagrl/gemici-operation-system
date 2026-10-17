@@ -1,0 +1,31 @@
+.env
+**/node_modules/
+**/.next/
+**/dist/
+*.log
+**/.agents/
+**/.claude/
+**/.windsurf/
+**/skills-lock.json
+**/AGENTS.md
+**/CLAUDE.md
+backend/data/sefer-takip-raw.json
+backend/data/sefer-import.json
+backend/data/arac-rehberi.csv
+backend/data/ride-assignment-response.json
+
+# Veritabanı yedekleri ve kod yedekleri (gerçek yolcu verisi içerir)
+backups/
+
+# Portfolio-specific exclusions
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/.next/
+**/dist/
+**/*.tsbuildinfo
+backend/src/generated/
+backups/
+backend/data/
+oneops-bridge-extension/
